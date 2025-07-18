@@ -257,6 +257,10 @@ footer  textarea{
     height: 180px;
 }
 
+footer  textarea::placeholder{
+        padding-top: 25px;
+}
+
 
 
 @media screen and (max-width: 576px) {
@@ -352,8 +356,5 @@ footer  textarea{
     
     footer input[type="text"], footer input[type="email"], footer textarea{
         width: 85%;
-    }
-    footer  textarea::placeholder{
-        padding-top: 25px;
     }
 }
