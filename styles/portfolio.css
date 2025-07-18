@@ -351,10 +351,9 @@ footer  textarea{
 
     
     footer input[type="text"], footer input[type="email"], footer textarea{
-        height: 64px;
-        width: 75%;
+        width: 85%;
     }
-    footer  textarea{
-        height: 180px;
+    footer  textarea::placeholder{
+        padding-top: 25px;
     }
 }
